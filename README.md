@@ -11,8 +11,10 @@ In order to install the XBlock into your Open edX devstack Server you need to:
 
         $ vagrant ssh
         vagrant@precise64:~$ sudo -u edxapp /edx/bin/pip.edxapp install /path/to/your/block
-        
-  3. Enable the block:
+  
+  3. Add voicerecognizer  to installed apps
+  4. Rebuild assets       
+  5. Enable the block:
 
         #.  In ``edx-platform/lms/envs/common.py``, uncomment::
 

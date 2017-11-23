@@ -1,6 +1,7 @@
 # Voice Recognizer XBlock #
 This XBlock allows students to recognize his voice and he can see the what he spoke.
-It supports multiple languages, this version worksonly on Google Chrome Browser.
+It supports multiple languages, this version worksonly on Google Chrome Browser ( https://caniuse.com/#feat=speech-recognition ) .
+
 
 ## Installation instructions ##
 In order to install the XBlock into your Open edX devstack Server you need to:
